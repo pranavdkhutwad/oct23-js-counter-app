@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.app-header {
+    padding: 25px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Container */
+.container {
+    margin: 25px;
+}
+
+.total-counter {
+    background-color: cornflowerblue;
+    width: 400px;
+    padding: 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.badge {
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+}
+.product-img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.btn {
+    all: unset;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: rgb(12, 191, 12);
+}
+.btn-danger {
+    background-color: rgb(151, 3, 3);
+}
